@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+.navbar{
+    width: 90%;
+    max-width: 1600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.navbar .nav-part{
+    list-style: none;
+    display: flex;
+}
+.logo img {
+    max-width:139px;
+    height: 60px;
+    background-color: #FFFFFF;
+    margin:16px 120px;
+}
+.nav-part a {
+    margin: 0 32px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+.btn-first{
+    padding: 12px 16px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    color: #469165;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+}
+.btn {
+    padding: 12px 16px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #469165;
+    color: #FFFFFF;
+    width: 252px;
+}
+
+.hero {
+    background:url("../assets/hero-bg.png");
+    padding: 160px 0 120px 0;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+.hero-container {
+    position: relative;
+    max-width: 1360px;
+    margin: 0 auto;
+    z-index: 2;
+}
+.hero h1 {
+    font-size: 72px;
+    font-weight: 700;
+    margin-bottom: 14px;
+    line-height: 84px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.h1-second{
+    color: #30B868;
+}
+.hero p {
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 24px;
+    margin-bottom: 16px;
+    font-size: normal;
+    border: none;
+}
+.hero-text p{
+    max-width: 1360px;
+    margin: 0 auto;
+}
+.hero-buttons {
+    display: inline-flex;
+    gap: 12px;
+}
+.btn-next {
+    width: 220px;
+    height:52px;
+    border: 2px solid #2c3e50;
+    color:  #FFFFFF;
+    background-color: #0c172a;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    justify-content: center;
+}
+.structures {
+    padding: 90px 20px 90px;
+    background: #FFFFFF;
+    text-align: center;
+}
+.structures h2 {
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 6px;
+}
+.structures-box {
+    display: flex;
+    gap: 28px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+.structures .container h2{
+    color: #001931;
+    font-size: 48px;
+}
+.structures .container p{
+    color:#627382;
+    font-size: 16px;
+}
+.structures{
+    width: 1600px;
+    height: 448px;
+}
+.flexbox {
+    background-color: #F95555;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 auto 16px auto;
+}
+
+.structures h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.structures p {
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+    font-weight: 500;
+}
+.solution {
+    padding: 20px;;
+    background: #fff;
+    display: flex;
+    margin-top: 100px;
+}
+
+.solution-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.solution-container img {
+    border-radius: 12px;
+    width: 600px;
+    height: 600px;
+    gap: 60px;
+    margin: 0 auto;
+}
+.solution-text {
+    max-width: 700px;
+}
+.solution-text h2 {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 16px;
+    color: #001931;
+}
+.solution-text h4{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    margin-bottom: 16px;
+    color: #469165;
+}
+.solution-text p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 26px;
+}
+.solution-text ul {
+    margin-bottom: 40px;
+    list-style: none;
+    line-height: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #001931;
+    
+}
+.solution-text ul li {
+    margin-bottom: 16px;
+    padding-left: 22px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #001931;
+}
+.last-part {
+    background: #f9fbfb;
+    padding: 60px 20px 70px;
+    text-align: center;
+    color: #627382;
+    margin: 0px 120px 120px 120px;
+}
+.last-container h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 1px;
+    line-height: 48px;
+}
+.last-container p {
+    color:#627382;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.last-part .last-para{
+    margin-top: 16px;
+}
